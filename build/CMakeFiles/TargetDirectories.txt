@@ -1,7 +1,7 @@
-/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles/EletraCIlib.dir
-/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles/EletraCI.dir
+/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles/who_projectslib.dir
+/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles/who_projects.dir
 /Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles/edit_cache.dir
 /Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles/rebuild_cache.dir
-/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/tests/CMakeFiles/EletraCITests.dir
+/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/tests/CMakeFiles/who_projectsTests.dir
 /Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/tests/CMakeFiles/edit_cache.dir
 /Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/tests/CMakeFiles/rebuild_cache.dir

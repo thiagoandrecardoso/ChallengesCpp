@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/EletraCIlib.dir/all
-all: CMakeFiles/EletraCI.dir/all
+all: CMakeFiles/who_projectslib.dir/all
+all: CMakeFiles/who_projects.dir/all
 all: tests/all
 .PHONY : all
 
@@ -73,8 +73,8 @@ preinstall: tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/EletraCIlib.dir/clean
-clean: CMakeFiles/EletraCI.dir/clean
+clean: CMakeFiles/who_projectslib.dir/clean
+clean: CMakeFiles/who_projects.dir/clean
 clean: tests/clean
 .PHONY : clean
 
@@ -82,7 +82,7 @@ clean: tests/clean
 # Directory level rules for directory tests
 
 # Recursive "all" directory target.
-tests/all: tests/CMakeFiles/EletraCITests.dir/all
+tests/all: tests/CMakeFiles/who_projectsTests.dir/all
 .PHONY : tests/all
 
 # Recursive "preinstall" directory target.
@@ -90,86 +90,86 @@ tests/preinstall:
 .PHONY : tests/preinstall
 
 # Recursive "clean" directory target.
-tests/clean: tests/CMakeFiles/EletraCITests.dir/clean
+tests/clean: tests/CMakeFiles/who_projectsTests.dir/clean
 .PHONY : tests/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/EletraCIlib.dir
+# Target rules for target CMakeFiles/who_projectslib.dir
 
 # All Build rule for target.
-CMakeFiles/EletraCIlib.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCIlib.dir/build.make CMakeFiles/EletraCIlib.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCIlib.dir/build.make CMakeFiles/EletraCIlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" --progress-num=6,7 "Built target EletraCIlib"
-.PHONY : CMakeFiles/EletraCIlib.dir/all
+CMakeFiles/who_projectslib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" --progress-num=6,7,8 "Built target who_projectslib"
+.PHONY : CMakeFiles/who_projectslib.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/EletraCIlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/EletraCIlib.dir/all
+CMakeFiles/who_projectslib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/who_projectslib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" 0
-.PHONY : CMakeFiles/EletraCIlib.dir/rule
+.PHONY : CMakeFiles/who_projectslib.dir/rule
 
 # Convenience name for target.
-EletraCIlib: CMakeFiles/EletraCIlib.dir/rule
-.PHONY : EletraCIlib
+who_projectslib: CMakeFiles/who_projectslib.dir/rule
+.PHONY : who_projectslib
 
 # clean rule for target.
-CMakeFiles/EletraCIlib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCIlib.dir/build.make CMakeFiles/EletraCIlib.dir/clean
-.PHONY : CMakeFiles/EletraCIlib.dir/clean
+CMakeFiles/who_projectslib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/clean
+.PHONY : CMakeFiles/who_projectslib.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/EletraCI.dir
+# Target rules for target CMakeFiles/who_projects.dir
 
 # All Build rule for target.
-CMakeFiles/EletraCI.dir/all: CMakeFiles/EletraCIlib.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCI.dir/build.make CMakeFiles/EletraCI.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCI.dir/build.make CMakeFiles/EletraCI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" --progress-num=1,2 "Built target EletraCI"
-.PHONY : CMakeFiles/EletraCI.dir/all
+CMakeFiles/who_projects.dir/all: CMakeFiles/who_projectslib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projects.dir/build.make CMakeFiles/who_projects.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projects.dir/build.make CMakeFiles/who_projects.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" --progress-num=1,2 "Built target who_projects"
+.PHONY : CMakeFiles/who_projects.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/EletraCI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/EletraCI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" 0
-.PHONY : CMakeFiles/EletraCI.dir/rule
-
-# Convenience name for target.
-EletraCI: CMakeFiles/EletraCI.dir/rule
-.PHONY : EletraCI
-
-# clean rule for target.
-CMakeFiles/EletraCI.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCI.dir/build.make CMakeFiles/EletraCI.dir/clean
-.PHONY : CMakeFiles/EletraCI.dir/clean
-
-#=============================================================================
-# Target rules for target tests/CMakeFiles/EletraCITests.dir
-
-# All Build rule for target.
-tests/CMakeFiles/EletraCITests.dir/all: CMakeFiles/EletraCIlib.dir/all
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/depend
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" --progress-num=3,4,5 "Built target EletraCITests"
-.PHONY : tests/CMakeFiles/EletraCITests.dir/all
-
-# Build rule for subdir invocation for target.
-tests/CMakeFiles/EletraCITests.dir/rule: cmake_check_build_system
+CMakeFiles/who_projects.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/EletraCITests.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/who_projects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" 0
-.PHONY : tests/CMakeFiles/EletraCITests.dir/rule
+.PHONY : CMakeFiles/who_projects.dir/rule
 
 # Convenience name for target.
-EletraCITests: tests/CMakeFiles/EletraCITests.dir/rule
-.PHONY : EletraCITests
+who_projects: CMakeFiles/who_projects.dir/rule
+.PHONY : who_projects
 
 # clean rule for target.
-tests/CMakeFiles/EletraCITests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/clean
-.PHONY : tests/CMakeFiles/EletraCITests.dir/clean
+CMakeFiles/who_projects.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projects.dir/build.make CMakeFiles/who_projects.dir/clean
+.PHONY : CMakeFiles/who_projects.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/who_projectsTests.dir
+
+# All Build rule for target.
+tests/CMakeFiles/who_projectsTests.dir/all: CMakeFiles/who_projectslib.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" --progress-num=3,4,5 "Built target who_projectsTests"
+.PHONY : tests/CMakeFiles/who_projectsTests.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/who_projectsTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/who_projectsTests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build/CMakeFiles" 0
+.PHONY : tests/CMakeFiles/who_projectsTests.dir/rule
+
+# Convenience name for target.
+who_projectsTests: tests/CMakeFiles/who_projectsTests.dir/rule
+.PHONY : who_projectsTests
+
+# clean rule for target.
+tests/CMakeFiles/who_projectsTests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/clean
+.PHONY : tests/CMakeFiles/who_projectsTests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

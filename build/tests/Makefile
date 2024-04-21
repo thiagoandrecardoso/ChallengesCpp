@@ -117,25 +117,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tests/CMakeFiles/EletraCITests.dir/rule:
-	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/EletraCITests.dir/rule
-.PHONY : tests/CMakeFiles/EletraCITests.dir/rule
+tests/CMakeFiles/who_projectsTests.dir/rule:
+	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/who_projectsTests.dir/rule
+.PHONY : tests/CMakeFiles/who_projectsTests.dir/rule
 
 # Convenience name for target.
-EletraCITests: tests/CMakeFiles/EletraCITests.dir/rule
-.PHONY : EletraCITests
+who_projectsTests: tests/CMakeFiles/who_projectsTests.dir/rule
+.PHONY : who_projectsTests
 
 # fast build rule for target.
-EletraCITests/fast:
-	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/build
-.PHONY : EletraCITests/fast
+who_projectsTests/fast:
+	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/build
+.PHONY : who_projectsTests/fast
 
 Test_twosum.o: Test_twosum.cpp.o
 .PHONY : Test_twosum.o
 
 # target to build an object file
 Test_twosum.cpp.o:
-	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/Test_twosum.cpp.o
+	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/Test_twosum.cpp.o
 .PHONY : Test_twosum.cpp.o
 
 Test_twosum.i: Test_twosum.cpp.i
@@ -143,7 +143,7 @@ Test_twosum.i: Test_twosum.cpp.i
 
 # target to preprocess a source file
 Test_twosum.cpp.i:
-	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/Test_twosum.cpp.i
+	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/Test_twosum.cpp.i
 .PHONY : Test_twosum.cpp.i
 
 Test_twosum.s: Test_twosum.cpp.s
@@ -151,7 +151,7 @@ Test_twosum.s: Test_twosum.cpp.s
 
 # target to generate assembly for a file
 Test_twosum.cpp.s:
-	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/Test_twosum.cpp.s
+	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/Test_twosum.cpp.s
 .PHONY : Test_twosum.cpp.s
 
 main.o: main.cpp.o
@@ -159,7 +159,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/main.cpp.o
+	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -167,7 +167,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/main.cpp.i
+	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -175,7 +175,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/main.cpp.s
+	cd "/Users/thiagocardoso/Documents/01 - Dev/03 - C++/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -186,7 +186,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... EletraCITests"
+	@echo "... who_projectsTests"
 	@echo "... Test_twosum.o"
 	@echo "... Test_twosum.i"
 	@echo "... Test_twosum.s"

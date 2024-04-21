@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 
 PROJECT(
-    EletraCI
+    who_projects
 
     LANGUAGES CXX
 )
@@ -12,6 +12,7 @@ add_library(
     ${PROJECT_NAME}lib
 
     source/twosum.cpp
+    source/pi.cpp
 )
 
 add_executable(

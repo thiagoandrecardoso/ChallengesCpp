@@ -117,50 +117,50 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named EletraCIlib
+# Target rules for targets named who_projectslib
 
 # Build rule for target.
-EletraCIlib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EletraCIlib
-.PHONY : EletraCIlib
+who_projectslib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 who_projectslib
+.PHONY : who_projectslib
 
 # fast build rule for target.
-EletraCIlib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCIlib.dir/build.make CMakeFiles/EletraCIlib.dir/build
-.PHONY : EletraCIlib/fast
+who_projectslib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/build
+.PHONY : who_projectslib/fast
 
 #=============================================================================
-# Target rules for targets named EletraCI
+# Target rules for targets named who_projects
 
 # Build rule for target.
-EletraCI: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EletraCI
-.PHONY : EletraCI
+who_projects: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 who_projects
+.PHONY : who_projects
 
 # fast build rule for target.
-EletraCI/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCI.dir/build.make CMakeFiles/EletraCI.dir/build
-.PHONY : EletraCI/fast
+who_projects/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projects.dir/build.make CMakeFiles/who_projects.dir/build
+.PHONY : who_projects/fast
 
 #=============================================================================
-# Target rules for targets named EletraCITests
+# Target rules for targets named who_projectsTests
 
 # Build rule for target.
-EletraCITests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EletraCITests
-.PHONY : EletraCITests
+who_projectsTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 who_projectsTests
+.PHONY : who_projectsTests
 
 # fast build rule for target.
-EletraCITests/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EletraCITests.dir/build.make tests/CMakeFiles/EletraCITests.dir/build
-.PHONY : EletraCITests/fast
+who_projectsTests/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/who_projectsTests.dir/build.make tests/CMakeFiles/who_projectsTests.dir/build
+.PHONY : who_projectsTests/fast
 
 source/main.o: source/main.cpp.o
 .PHONY : source/main.o
 
 # target to build an object file
 source/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCI.dir/build.make CMakeFiles/EletraCI.dir/source/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projects.dir/build.make CMakeFiles/who_projects.dir/source/main.cpp.o
 .PHONY : source/main.cpp.o
 
 source/main.i: source/main.cpp.i
@@ -168,7 +168,7 @@ source/main.i: source/main.cpp.i
 
 # target to preprocess a source file
 source/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCI.dir/build.make CMakeFiles/EletraCI.dir/source/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projects.dir/build.make CMakeFiles/who_projects.dir/source/main.cpp.i
 .PHONY : source/main.cpp.i
 
 source/main.s: source/main.cpp.s
@@ -176,15 +176,39 @@ source/main.s: source/main.cpp.s
 
 # target to generate assembly for a file
 source/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCI.dir/build.make CMakeFiles/EletraCI.dir/source/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projects.dir/build.make CMakeFiles/who_projects.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
+
+source/pi.o: source/pi.cpp.o
+.PHONY : source/pi.o
+
+# target to build an object file
+source/pi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/source/pi.cpp.o
+.PHONY : source/pi.cpp.o
+
+source/pi.i: source/pi.cpp.i
+.PHONY : source/pi.i
+
+# target to preprocess a source file
+source/pi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/source/pi.cpp.i
+.PHONY : source/pi.cpp.i
+
+source/pi.s: source/pi.cpp.s
+.PHONY : source/pi.s
+
+# target to generate assembly for a file
+source/pi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/source/pi.cpp.s
+.PHONY : source/pi.cpp.s
 
 source/twosum.o: source/twosum.cpp.o
 .PHONY : source/twosum.o
 
 # target to build an object file
 source/twosum.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCIlib.dir/build.make CMakeFiles/EletraCIlib.dir/source/twosum.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/source/twosum.cpp.o
 .PHONY : source/twosum.cpp.o
 
 source/twosum.i: source/twosum.cpp.i
@@ -192,7 +216,7 @@ source/twosum.i: source/twosum.cpp.i
 
 # target to preprocess a source file
 source/twosum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCIlib.dir/build.make CMakeFiles/EletraCIlib.dir/source/twosum.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/source/twosum.cpp.i
 .PHONY : source/twosum.cpp.i
 
 source/twosum.s: source/twosum.cpp.s
@@ -200,7 +224,7 @@ source/twosum.s: source/twosum.cpp.s
 
 # target to generate assembly for a file
 source/twosum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EletraCIlib.dir/build.make CMakeFiles/EletraCIlib.dir/source/twosum.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/who_projectslib.dir/build.make CMakeFiles/who_projectslib.dir/source/twosum.cpp.s
 .PHONY : source/twosum.cpp.s
 
 # Help Target
@@ -211,12 +235,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... EletraCI"
-	@echo "... EletraCITests"
-	@echo "... EletraCIlib"
+	@echo "... who_projects"
+	@echo "... who_projectsTests"
+	@echo "... who_projectslib"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
+	@echo "... source/pi.o"
+	@echo "... source/pi.i"
+	@echo "... source/pi.s"
 	@echo "... source/twosum.o"
 	@echo "... source/twosum.i"
 	@echo "... source/twosum.s"

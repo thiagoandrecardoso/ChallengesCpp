@@ -44,7 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/EletraCIlib.dir/DependInfo.cmake"
-  "CMakeFiles/EletraCI.dir/DependInfo.cmake"
-  "tests/CMakeFiles/EletraCITests.dir/DependInfo.cmake"
+  "CMakeFiles/who_projectslib.dir/DependInfo.cmake"
+  "CMakeFiles/who_projects.dir/DependInfo.cmake"
+  "tests/CMakeFiles/who_projectsTests.dir/DependInfo.cmake"
   )
